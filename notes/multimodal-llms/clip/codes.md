@@ -11,15 +11,20 @@ CLIP 및 유사 모델 (similar models)은 이미지와 텍스트 임베딩을 �
 
 ## 실습: Connecting Text and Images&#x20;
 
-
-
-
-
-{% code overflow="wrap" lineNumbers="true" fullWidth="false" %}
+{% code title="OpenCLIP" lineNumbers="true" fullWidth="false" %}
 ```python
 from transformers import CLIPTokenizerFast, CLIPProcessor, CLIPModel
 
+model_id = "openai/clip-vit-base-patch32"
 
+# -- Load a tokenizer to preprocess the 'text'
+tokenizer = CLIPTokenizerFast.from_pretrained(model_id)
+
+# -- Load a processor to preprocess the 'images'
+processor = CLIPProcessor.from_pretrained(model_id)
+
+# -- Main model for generating 'text and image embeddings'
+model = CLIPModel.from_pretrained(model_id)
 ```
 {% endcode %}
 
