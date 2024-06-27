@@ -1,8 +1,20 @@
+---
+description: 학습에 도움이 될 자료집
+---
+
 # Resources
 
 ## **tutorials**
 
+{% tabs %}
+{% tab title="init" %}
+참고하기 좋은 튜토리얼&#x20;
+{% endtab %}
+
+{% tab title="2024" %}
 * [Recent Advances in Vision Foundation Models](https://vlp-tutorial.github.io/), CVPR tutorial, 2024.
+{% endtab %}
+{% endtabs %}
 
 ## **books**
 
@@ -46,6 +58,17 @@
 
 ## repository&#x20;
 
+{% tabs %}
+{% tab title="init" %}
+참고하기 좋은 레포
+{% endtab %}
+
+{% tab title="github" %}
 * [Awesome Multimodal Large Language Models](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models), BradyFU's github.
 * [Awesome VLM Architectures](https://github.com/gokayfem/awesome-vlm-architectures), gokaygem's github.
+{% endtab %}
 
+{% tab title="hugginhface" %}
+
+{% endtab %}
+{% endtabs %}
