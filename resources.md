@@ -8,7 +8,7 @@
 
 **tutorials**
 
-* [Recent Advances in Vision Foundation Modesl](https://vlp-tutorial.github.io/), CVPR2024 tutorial.
+* [Recent Advances in Vision Foundation Models](https://vlp-tutorial.github.io/), CVPR2024 tutorial.
 
 **books**
 
