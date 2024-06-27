@@ -84,4 +84,18 @@ description: 학습에 도움이 될 자료집
 {% tab title="Youtube" %}
 * [VLP Tutorial 2023](https://www.youtube.com/@VLPTutorial/featured).
 {% endtab %}
+
+{% tab title="Tech blogs" %}
+* [The road to AGI](https://deepmind.google/discover/the-podcast/the-road-to-agi/), Google DeepMind.
+* [AI Research](https://engineering.fb.com/category/ai-research/), Engineering at Meta.
+{% endtab %}
+
+{% tab title="Trending" %}
+* [emergentmind.com](https://www.emergentmind.com/)
+{% endtab %}
+
+{% tab title="Lectures" %}
+* [UVA Foundation Models Course](https://uvafomo.github.io/).&#x20;
+* [UVA Deep Learning Course](https://uvadlc.github.io/).
+{% endtab %}
 {% endtabs %}
