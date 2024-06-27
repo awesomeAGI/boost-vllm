@@ -11,6 +11,10 @@ CLIP 및 유사 모델 (similar models)은 이미지와 텍스트 임베딩을 �
 
 ## 실습: Connecting Text and Images&#x20;
 
+```bash
+!pip install transformers==4.41.2
+```
+
 {% code title="OpenCLIP" lineNumbers="true" fullWidth="false" %}
 ```python
 from transformers import CLIPTokenizerFast, CLIPProcessor, CLIPModel
@@ -28,9 +32,18 @@ model = CLIPModel.from_pretrained(model_id)
 ```
 {% endcode %}
 
+OpenCLIP을 사용하여 <mark style="background-color:orange;">이미지와  이미지 캡션의 임베딩을 생성</mark>하려면 **세 가지 모델**이 필요합니다:
 
+* 텍스트를 위한 토크나이저 (tokenizer)
+* 이미지를 위한 전처리기
+* 처리된 입력을 임베딩으로 변환하는 메인 모델&#x20;
 
-
+{% code title="Tokenizer" lineNumbers="true" %}
+```python
+# -- Tokenize the caption about the input
+inputs = tokenizer(caption, return_tensors="pt")
+```
+{% endcode %}
 
 
 
