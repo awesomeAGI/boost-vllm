@@ -82,6 +82,15 @@ description: 학습에 도움이 될 자료집
 {% endtab %}
 
 {% tab title="Youtube" %}
+**국내**
+
+* 시각적 이해를 위한 머신러닝, Joonseok Lee of SNU --- (lecture [18](https://youtu.be/b242KBKlupQ?si=kNmNpwNiMNKjQHmz) and [19](https://youtu.be/WbLUIDN1C6s?si=6oy9xqb6L30JT9i0))
+
+**국외**
+
+* [MIT 6.S087: Foundation Models & Generative AI (2024)](https://youtube.com/playlist?list=PLXV9Vh2jYcjbnv67sXNDJiO8MWLA3ZJKR\&si=hYXD2dM-TaJh2APh). --- ([site](https://futureofai.mit.edu/))
+* [Understanding LLM Understanding (2024)](https://youtube.com/playlist?list=PL2xTeGtUb-8B94jdWGT-chu4ucI7oEe\_x\&si=1hoEFkZXn\_qf9F6Q).
+* [CMU Fall 2023 Multimodal Machine Learning course (11-777)](https://youtube.com/playlist?list=PL-Fhd\_vrvisMYs8A5j7sj8YW1wHhoJSmW\&si=T1Z8mUa0OTCLzRMD). --- ([slides](https://cmu-multicomp-lab.github.io/mmml-course/fall2023/schedule/))
 * [VLP Tutorial 2023](https://www.youtube.com/@VLPTutorial/featured).
 {% endtab %}
 
