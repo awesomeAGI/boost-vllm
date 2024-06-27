@@ -5,7 +5,9 @@
 
 ## Group 1
 
-* [test](group-1/test.md)
+* [test](group-1/test/README.md)
+  * [Page 3](group-1/test/page-3.md)
+  * [Page 4](group-1/test/page-4.md)
 * [Page 1](group-1/page-1.md)
 * [Page](group-1/page.md)
 
