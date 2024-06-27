@@ -1,0 +1,3 @@
+# 2024
+
+<figure><img src="../../.gitbook/assets/5eeea355389655.59822ff824b72.gif" alt=""><figcaption></figcaption></figure>
