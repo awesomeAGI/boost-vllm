@@ -3,14 +3,13 @@
 * [Preface](README.md)
 * [Introduction](introduction.md)
 
-## Group 1
+## CLIP
 
-* [test](group-1/test/README.md)
-  * [Page 3](group-1/test/page-3.md)
-  * [Page 4](group-1/test/page-4.md)
-* [Page 1](group-1/page-1.md)
-* [Page](group-1/page.md)
+* [test](clip/test/README.md)
+  * [Page 3](clip/test/page-3.md)
+  * [Page 4](clip/test/page-4.md)
+* [Page 1](clip/page-1.md)
 
-## Group 2
+## Foundation
 
-* [Page 2](group-2/page-2.md)
+* [Page 2](foundation/page-2.md)
