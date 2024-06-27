@@ -21,11 +21,15 @@ import numpy as np
 from PIL import Image
 
 # -- Load an image
-image = Image.open('<img_path>')
-image = image.resize((512, 512))
+img_list = ['./swan_and_duck.png',
+            './chickens.png',
+            './birds_flying.png']
+images = [Image.open(path).resize((512, 512)) for path in img_list]
 
 # -- Caption 
-caption = "a puppy playing in the snow"
+captions = ["There are many swans and ducks",
+            "Chickens playing on the ground",
+            "A pair of birds flying in the sky"]
 ```
 {% endcode %}
 
@@ -59,7 +63,7 @@ OpenCLIP을 사용하여 <mark style="background-color:orange;">이미지와  �
 {% code title="Tokenizer" lineNumbers="true" %}
 ```python
 # -- Tokenize the caption about the input
-inputs = tokenizer(caption, return_tensors="pt")
+inputs = tokenizer(captions, padding=True, truncation=True, return_tensors="pt")
 ```
 {% endcode %}
 
@@ -96,10 +100,22 @@ print(image_embedding.shape)
 
 {% code title="Calculating the similarity" lineNumbers="true" %}
 ```python
+# -- Normalize the embeddings
+text_embedding /= text_embedding.norm(dim=-1, keepdim=True)
+image_embedding /= image_embedding.norm(dim=-1, keepdim=True)
+
+# -- Calculate their similarity
+text_embedding = text_embedding.detach().cpu().numpy()
+image_embedding = image_embedding.detach().cpu().numpy()
+
+score = np.dot(text_embedding, image_embedding.T)
+print(score)
 ```
 {% endcode %}
 
+유사성 (similarity)을 더 분석하기 위해 **임베딩을 정규화**한 후 **점곱(dot product)**을 계산하면 0과 1 사이의 값을 얻을 수 있습니다.
 
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Similarity scores between images and texts</p></figcaption></figure>
 
 ## Reference
 
