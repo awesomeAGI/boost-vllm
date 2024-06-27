@@ -31,7 +31,7 @@ description: 학습에 도움이 될 자료집
 
 **원서**
 
-*
+* Multimodal Deep Learning, _Matthias Aßenmacher,_ 2023. --- ([arXiv](https://arxiv.org/abs/2301.04856)) ([Web](https://slds-lmu.github.io/seminar\_multimodal\_dl/index.html))
 {% endtab %}
 
 {% tab title="2024" %}
@@ -50,6 +50,25 @@ description: 학습에 도움이 될 자료집
 {% tabs %}
 {% tab title="init" %}
 논문 리스트&#x20;
+{% endtab %}
+
+{% tab title="2023" %}
+**General MML Representation Learning**
+
+* [LLaVA - Visual Instruction Tuning](https://llava-vl.github.io/), NeurIPS, 2023.
+
+**Text-Image Generation**
+
+* [VideoLDM - Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models](https://research.nvidia.com/labs/toronto-ai/VideoLDM/), CVPR, 2023.
+
+**Robotic Learning**
+
+* [PaLM-E: An Embodied Multimodal Language Model](https://palm-e.github.io/), PMLR, 2023.
+
+**Applications Connecting Multimodals**&#x20;
+
+* [Visual ChatGPT: Talking, Drawing and Editing with Visual Foundation Models](https://github.com/chenfei-wu/TaskMatrix), arXiv, 2023.
+* [ViperGPT: Visual Inference via Python Execution for Reasoning](https://viper.cs.columbia.edu/), arXiv, 2023.
 {% endtab %}
 
 {% tab title="2024" %}
@@ -90,7 +109,7 @@ description: 학습에 도움이 될 자료집
 
 * [MIT 6.S087: Foundation Models & Generative AI (2024)](https://youtube.com/playlist?list=PLXV9Vh2jYcjbnv67sXNDJiO8MWLA3ZJKR\&si=hYXD2dM-TaJh2APh). --- ([site](https://futureofai.mit.edu/))
 * [Understanding LLM Understanding (2024)](https://youtube.com/playlist?list=PL2xTeGtUb-8B94jdWGT-chu4ucI7oEe\_x\&si=1hoEFkZXn\_qf9F6Q).
-* [CMU Fall 2023 Multimodal Machine Learning course (11-777)](https://youtube.com/playlist?list=PL-Fhd\_vrvisMYs8A5j7sj8YW1wHhoJSmW\&si=T1Z8mUa0OTCLzRMD). --- ([slides](https://cmu-multicomp-lab.github.io/mmml-course/fall2023/schedule/))
+* [CMU Fall 2023 Multimodal Machine Learning course (11-777)](https://youtube.com/playlist?list=PL-Fhd\_vrvisMYs8A5j7sj8YW1wHhoJSmW\&si=T1Z8mUa0OTCLzRMD). --- ([slides](https://cmu-multicomp-lab.github.io/mmml-course/fall2023/schedule/))([page](https://cmu-mmml.github.io/spring2023/))
 * [VLP Tutorial 2023](https://www.youtube.com/@VLPTutorial/featured).
 {% endtab %}
 
@@ -104,7 +123,16 @@ description: 학습에 도움이 될 자료집
 {% endtab %}
 
 {% tab title="Lectures" %}
+**국내**
+
+*
+
+**국외**
+
 * [UVA Foundation Models Course](https://uvafomo.github.io/).&#x20;
 * [UVA Deep Learning Course](https://uvadlc.github.io/).
+* [Advanced Topics in MultiModal Machine Learning (11-877 AMML), Carnegie Mellon University](https://cmu-multicomp-lab.github.io/adv-mmml-course/spring2023/schedule/).
+* [Deep Learning For Multimodal Systems, Hertie School Data Science Lab, 2023](https://ds3.ai/2023/deep-learning). --- ([Youtube](https://www.youtube.com/live/7izmkSRVGig?si=BHLlP0zTeFkQB6KI))
+* [Topics in Computer Vision (CSC2539) - Visual Recognition with Text, University of Toronto, 2017](https://www.cs.utoronto.ca/\~fidler/teaching/2017/CSC2539.html).
 {% endtab %}
 {% endtabs %}
