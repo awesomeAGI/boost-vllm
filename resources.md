@@ -72,3 +72,15 @@ description: 학습에 도움이 될 자료집
 
 {% endtab %}
 {% endtabs %}
+
+## etc&#x20;
+
+{% tabs %}
+{% tab title="init" %}
+기타 (딩가딩가)
+{% endtab %}
+
+{% tab title="Youtube" %}
+* [VLP Tutorial 2023](https://www.youtube.com/@VLPTutorial/featured).
+{% endtab %}
+{% endtabs %}
