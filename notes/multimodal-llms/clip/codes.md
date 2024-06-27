@@ -11,6 +11,20 @@ CLIP 및 유사 모델 (similar models)은 이미지와 텍스트 임베딩을 �
 
 ## 실습: Connecting Text and Images&#x20;
 
+{% code title="Load inputs " lineNumbers="true" %}
+```python
+import numpy as np
+from PIL import Image
+
+# -- Load an image
+image = Image.open('<img_path>')
+image = image.resize((512, 512))
+
+# -- Caption 
+caption = "a puppy playing in the snow"
+```
+{% endcode %}
+
 ```bash
 !pip install transformers==4.41.2
 ```
@@ -44,6 +58,37 @@ OpenCLIP을 사용하여 <mark style="background-color:orange;">이미지와  �
 inputs = tokenizer(caption, return_tensors="pt")
 ```
 {% endcode %}
+
+캡션이 전처리되었으면 다음 단계에서 임베딩을 생성합니다.
+
+{% code title="Text embedding" lineNumbers="true" %}
+```python
+# -- Create a text embedding
+text_embedding = model.get_text_features(**inputs)
+```
+{% endcode %}
+
+이미지 임베딩을 생성하기 전에, <mark style="background-color:orange;">모델이 요구하는 크기와 형태에 맞추기 위해</mark> 이전에 생성한 전처리기를 사용하여 이미지를 전처리해야 합니다.
+
+{% code title="Preprocessing image " lineNumbers="true" %}
+```python
+processed_image = processor(text=None, images=image, return_tensors='pt')['pixel_values']
+print(processed_image.shape) # (B,C,H,W)
+```
+{% endcode %}
+
+전처리 과정에서 원본 이미지는 모델의 입력 요구사항을 충족시키기 위해 224x224 픽셀로 크기가 조정됩니다.
+
+{% code title="Image embedding" lineNumbers="true" %}
+```
+image_embedding = model.get_image_features(processed_image)
+print(image_embedding.shape)
+```
+{% endcode %}
+
+
+
+
 
 
 
