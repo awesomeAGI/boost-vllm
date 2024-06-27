@@ -6,7 +6,8 @@
 ## Trend
 
 * [2023](trend/2023/README.md)
-  * [Page 3](trend/2023/page-3.md)
+  * [Page 3](trend/2023/page-3/README.md)
+    * [Page 1](trend/2023/page-3/page-1.md)
 
 ## Foundation
 
