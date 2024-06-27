@@ -3,12 +3,10 @@
 * [Preface](README.md)
 * [Introduction](introduction.md)
 
-## CLIP
+## Trend
 
-* [test](clip/test/README.md)
-  * [Page 3](clip/test/page-3.md)
-  * [Page 4](clip/test/page-4.md)
-* [Page 1](clip/page-1.md)
+* [2023](trend/2023/README.md)
+  * [Page 3](trend/2023/page-3.md)
 
 ## Foundation
 
