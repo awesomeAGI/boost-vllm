@@ -8,3 +8,28 @@ CLIP 및 유사 모델 (similar models)은 이미지와 텍스트 임베딩을 �
 2. **클러스터링 (Clustering)**: 이미지와 키워드 (keywords)를 그룹화하여 관련된 집합을 찾을 수 있습니다.
 3. **검색 (Search)**: 대규모 데이터 세트에서 관련된 텍스트나 이미지를 빠르게 찾을 수 있습니다.
 4. **생성 (Generation)**: 멀티모달 임베딩을 사용하여 이미지를 생성할 수 있습니다 (_e.g._, stable diffusion).
+
+## 실습: Connecting Text and Images&#x20;
+
+
+
+
+
+{% code overflow="wrap" lineNumbers="true" fullWidth="false" %}
+```python
+from transformers import CLIPTokenizerFast, CLIPProcessor, CLIPModel
+
+
+```
+{% endcode %}
+
+
+
+
+
+
+
+## Reference
+
+1. Radford, A., Kim, J., Hallacy, C., Ramesh, A., Goh, G., Agarwal, S., Sastry, G., Askell, A., Mishkin, P., Clark, J., & others (2021). Learning transferable visual models from natural language supervision. In International conference on machine learning (pp. 8748–8763)
+2. [Hands on Large Language Models](https://learning.oreilly.com/library/view/hands-on-large-language/9781098150952/ch05.html#transformers\_for\_vision), 2024.
