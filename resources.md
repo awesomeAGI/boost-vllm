@@ -13,6 +13,7 @@ description: 학습에 도움이 될 자료집
 
 {% tab title="2024" %}
 * [Recent Advances in Vision Foundation Models](https://vlp-tutorial.github.io/), CVPR tutorial, 2024.
+* [From Multimodal LLM to Human-level AI: Modality, Instruction, Reasoning, Efficiency and Beyond](https://mllm2024.github.io/CVPR2024/), CVPR tutorial, 2024.
 {% endtab %}
 {% endtabs %}
 
