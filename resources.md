@@ -74,7 +74,15 @@ description: 학습에 도움이 될 자료집
 {% tab title="2024" %}
 * [Towards AGI in Computer Vision: Lessons Learned from GPT and Large Language Models](https://arxiv.org/abs/2306.08641), arXiv, 2024.
 {% endtab %}
+
+{% tab title="Dataset" %}
+2023
+
+* [Lecture Presentations Multimodal (LPM) Dataset](https://github.com/dondongwon/LPMDataset), ICCV, 2023.
+{% endtab %}
 {% endtabs %}
+
+
 
 ## repository&#x20;
 
