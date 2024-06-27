@@ -15,18 +15,26 @@ CLIP 및 유사 모델 (similar models)은 이미지와 텍스트 임베딩을 �
 
 ## 실습: Connecting Text and Images&#x20;
 
+{% code lineNumbers="true" %}
+```bash
+!wget -O swan_and_duck.png https://as1.ftcdn.net/v2/jpg/03/19/39/26/1000_F_319392607_iGQGIxm6Uydj0R3rWJXNuqJtd24LqkJP.jpg
+!wget -O chickens.png https://as1.ftcdn.net/v2/jpg/04/01/75/08/1000_F_401750896_7TNLyhRdBo3KT5pHe78S8YoQKXLo7zJ5.jpg
+!wget -O birds_flying.png https://t3.ftcdn.net/jpg/02/10/17/32/240_F_210173237_39JkhlPSEfkl4WhLNgirxLPX2nO2HgLB.jpg
+```
+{% endcode %}
+
 {% code title="Load inputs " lineNumbers="true" %}
 ```python
 import numpy as np
 from PIL import Image
 
-# -- Load an image
+# -- Load images
 img_list = ['./swan_and_duck.png',
             './chickens.png',
             './birds_flying.png']
 images = [Image.open(path).resize((512, 512)) for path in img_list]
 
-# -- Caption 
+# -- Captions
 captions = ["There are many swans and ducks",
             "Chickens playing on the ground",
             "A pair of birds flying in the sky"]
@@ -113,7 +121,7 @@ print(score)
 ```
 {% endcode %}
 
-유사성 (similarity)을 더 분석하기 위해 **임베딩을 정규화**한 후 **점곱(dot product)**을 계산하면 0과 1 사이의 값을 얻을 수 있습니다.
+유사성 (similarity)을 더 분석하기 위해 **임베딩을 정규화**한 후 **점곱(dot product)**을 통해 코사인 유사도(cosine similarity)를 계산하면 0과 1 사이의 값을 얻을 수 있습니다.
 
 <figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Similarity scores between images and texts</p></figcaption></figure>
 
