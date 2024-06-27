@@ -1,3 +1,7 @@
+---
+description: 'Author: 윤건우'
+---
+
 # Codes
 
 **CLIP은** 이미지와 텍스트를 <mark style="background-color:orange;">동일한 벡터 공간 (vector space)에서 비교</mark>할 수 있도록 <mark style="background-color:orange;">임베딩을 생성하는 모델</mark>입니다. 이를 통해 **이미지와 텍스트 간의 직접적인 비교가 가능**합니다.
@@ -72,23 +76,28 @@ text_embedding = model.get_text_features(**inputs)
 
 {% code title="Preprocessing image " lineNumbers="true" %}
 ```python
+# -- image preprocessing 
 processed_image = processor(text=None, images=image, return_tensors='pt')['pixel_values']
-print(processed_image.shape) # (B,C,H,W)
+print(processed_image.shape) # (B,3,224,224) 
 ```
 {% endcode %}
 
 전처리 과정에서 원본 이미지는 모델의 입력 요구사항을 충족시키기 위해 224x224 픽셀로 크기가 조정됩니다.
 
 {% code title="Image embedding" lineNumbers="true" %}
-```
+```python
+# -- Create a image embedding
 image_embedding = model.get_image_features(processed_image)
 print(image_embedding.shape)
 ```
 {% endcode %}
 
+전처리된 이미지를 임베딩으로 변환합니다. <mark style="background-color:orange;">생성된 이미지 임베딩은 텍스트 임베딩과 동일한 형태를 가지므로</mark> **직접 비교가 가능**합니다.
 
-
-
+{% code title="Calculating the similarity" lineNumbers="true" %}
+```python
+```
+{% endcode %}
 
 
 
