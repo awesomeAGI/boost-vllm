@@ -1,6 +1,6 @@
 # Codes
 
-CLIP은 이미지와 텍스트를 <mark style="background-color:yellow;">동일한 벡터 공간 (vector space)에서 비교</mark>할 수 있도록 임베딩을 생성하는 모델입니다. 이를 통해 이미지와 텍스트 간의 직접적인 비교가 가능합니다.
+**CLIP은** 이미지와 텍스트를 <mark style="background-color:orange;">동일한 벡터 공간 (vector space)에서 비교</mark>할 수 있도록 <mark style="background-color:orange;">임베딩을 생성하는 모델</mark>입니다. 이를 통해 **이미지와 텍스트 간의 직접적인 비교가 가능**합니다.
 
 CLIP 및 유사 모델 (similar models)은 이미지와 텍스트 임베딩을 동일한 벡터 공간에서 비교할 수 있어 다음과 같은 작업을 수행할 수 있습니다:
 
