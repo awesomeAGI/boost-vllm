@@ -11,6 +11,10 @@ description: 학습에 도움이 될 자료집
 참고하기 좋은 튜토리얼&#x20;
 {% endtab %}
 
+{% tab title="2022" %}
+* [Tutorial on Multimodal Machine Learning](https://youtube.com/playlist?list=PLki3HkfgNEsKPcpj5Vv2P98SRAT9wxIDa\&si=8bd1kKQCckzUk\_Xa), CVPR tutorial, 2022.
+{% endtab %}
+
 {% tab title="2024" %}
 * [Recent Advances in Vision Foundation Models](https://vlp-tutorial.github.io/), CVPR tutorial, 2024.
 * [From Multimodal LLM to Human-level AI: Modality, Instruction, Reasoning, Efficiency and Beyond](https://mllm2024.github.io/CVPR2024/), CVPR tutorial, 2024.
