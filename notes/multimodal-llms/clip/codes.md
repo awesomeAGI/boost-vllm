@@ -133,4 +133,4 @@ print(score)
 ## Reference
 
 1. Radford, A., Kim, J., Hallacy, C., Ramesh, A., Goh, G., Agarwal, S., Sastry, G., Askell, A., Mishkin, P., Clark, J., & others (2021). Learning transferable visual models from natural language supervision. In International conference on machine learning (pp. 8748–8763)
-2. [Hands on Large Language Models](https://learning.oreilly.com/library/view/hands-on-large-language/9781098150952/ch05.html#transformers\_for\_vision), 2024.
+2. [Hands on Large Language Models](https://learning.oreilly.com/library/view/hands-on-large-language/9781098150952/ch05.html#transformers\_for\_vision), O'REILLY, 2024.
