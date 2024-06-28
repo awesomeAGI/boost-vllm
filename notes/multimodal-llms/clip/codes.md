@@ -62,7 +62,7 @@ model = CLIPModel.from_pretrained(model_id)
 ```
 {% endcode %}
 
-OpenCLIP을 사용하여 <mark style="background-color:orange;">이미지와  이미지 캡션의 임베딩을 생성</mark>하려면 **세 가지 모델**이 필요합니다:
+OpenCLIP을 사용하여 <mark style="background-color:yellow;">이미지와  이미지 캡션의 임베딩을 생성</mark>하려면 **세 가지 모델**이 필요합니다:
 
 * 텍스트를 위한 토크나이저 (tokenizer)
 * 이미지를 위한 전처리기
@@ -75,7 +75,7 @@ inputs = tokenizer(captions, padding=True, truncation=True, return_tensors="pt")
 ```
 {% endcode %}
 
-캡션을&#x20;
+캡션을 토큰화하고 토큰 ID를 할당하는 전처리를&#x20;
 
 캡션이 전처리되었으면 다음 단계에서 임베딩을 생성합니다.
 
