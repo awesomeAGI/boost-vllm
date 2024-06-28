@@ -75,7 +75,7 @@ inputs = tokenizer(captions, padding=True, truncation=True, return_tensors="pt")
 ```
 {% endcode %}
 
-캡션을 토큰화하고 토큰 ID를 할당하는 전처리를 진행합니다.
+캡션을 **토큰화**하고 **토큰 ID를 할당**하는 전처리를 진행합니다.
 
 * `padding=True`: Ensures that all sequences are padded to the same length.
 * `truncation=True`: Truncates sequences that are longer than the maximum allowed length for the model.
