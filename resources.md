@@ -124,6 +124,7 @@ description: 학습에 도움이 될 자료집
 {% tab title="Tech blogs" %}
 * [The road to AGI](https://deepmind.google/discover/the-podcast/the-road-to-agi/), Google DeepMind.
 * [AI Research](https://engineering.fb.com/category/ai-research/), Engineering at Meta.
+* [NEW Multi Modal AI by APPLE](https://youtu.be/-SIXiJ0uu2M?si=9hpj7oT9Jnf3TOkA), Youtube.
 {% endtab %}
 
 {% tab title="Trending" %}
