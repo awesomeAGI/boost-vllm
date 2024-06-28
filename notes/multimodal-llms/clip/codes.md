@@ -4,7 +4,7 @@ description: 'Author: 윤건우'
 
 # Codes
 
-**CLIP은** 이미지와 텍스트를 <mark style="background-color:orange;">동일한 벡터 공간 (vector space)에서 비교</mark>할 수 있도록 <mark style="background-color:orange;">임베딩을 생성하는 모델</mark>입니다. 이를 통해 **이미지와 텍스트 간의 직접적인 비교가 가능**합니다.
+**CLIP은** 이미지와 텍스트를 <mark style="background-color:yellow;">동일한 벡터 공간 (vector space)에서 비교</mark>할 수 있도록 <mark style="background-color:yellow;">임베딩을 생성하는 모델</mark>입니다. 이를 통해 **이미지와 텍스트 간의 직접적인 비교가 가능**합니다.
 
 CLIP 및 유사 모델 (similar models)은 이미지와 텍스트 임베딩을 동일한 벡터 공간에서 비교할 수 있어 다음과 같은 작업을 수행할 수 있습니다:
 
@@ -75,6 +75,8 @@ inputs = tokenizer(captions, padding=True, truncation=True, return_tensors="pt")
 ```
 {% endcode %}
 
+캡션을&#x20;
+
 캡션이 전처리되었으면 다음 단계에서 임베딩을 생성합니다.
 
 {% code title="Text embedding" lineNumbers="true" %}
@@ -84,7 +86,7 @@ text_embedding = model.get_text_features(**inputs)
 ```
 {% endcode %}
 
-이미지 임베딩을 생성하기 전에, <mark style="background-color:orange;">모델이 요구하는 크기와 형태에 맞추기 위해</mark> 이전에 생성한 전처리기를 사용하여 이미지를 전처리해야 합니다.
+이미지 임베딩을 생성하기 전에, <mark style="background-color:yellow;">모델이 요구하는 크기와 형태에 맞추기 위해</mark> 이전에 생성한 전처리기를 사용하여 이미지를 전처리해야 합니다.
 
 {% code title="Preprocessing image " lineNumbers="true" %}
 ```python
@@ -104,7 +106,7 @@ print(image_embedding.shape)
 ```
 {% endcode %}
 
-전처리된 이미지를 임베딩으로 변환합니다. <mark style="background-color:orange;">생성된 이미지 임베딩은 텍스트 임베딩과 동일한 형태를 가지므로</mark> **직접 비교가 가능**합니다.
+전처리된 이미지를 임베딩으로 변환합니다. <mark style="background-color:yellow;">생성된 이미지 임베딩은 텍스트 임베딩과 동일한 형태를 가지므로</mark> **직접 비교가 가능**합니다.
 
 {% code title="Calculating the similarity" lineNumbers="true" %}
 ```python
