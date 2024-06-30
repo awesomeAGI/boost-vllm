@@ -10,7 +10,7 @@
   * [CLIP](notes/multimodal-llms/clip/README.md)
     * [1. Vision Transformers](notes/multimodal-llms/clip/1.-vision-transformers.md)
     * [2. Multimodal Embedding](notes/multimodal-llms/clip/2.-multimodal-embedding.md)
-    * [3. Connecting Text and Images](notes/multimodal-llms/clip/3.-connecting-text-and-images.md)
+    * [3. CLIP: Connecting Text and Images](notes/multimodal-llms/clip/3.-clip-connecting-text-and-images.md)
     * [Codes](notes/multimodal-llms/clip/codes.md)
   * [Dense prediction](notes/multimodal-llms/dense-prediction/README.md)
     * [SAM](notes/multimodal-llms/dense-prediction/sam.md)
