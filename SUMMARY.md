@@ -7,6 +7,7 @@
 ## Notes
 
 * [Multimodal LLMs](notes/multimodal-llms/README.md)
+  * [Background](notes/multimodal-llms/background.md)
   * [CLIP](notes/multimodal-llms/clip/README.md)
     * [1. Vision Transformers](notes/multimodal-llms/clip/1.-vision-transformers.md)
     * [2. Multimodal Embedding](notes/multimodal-llms/clip/2.-multimodal-embedding.md)
