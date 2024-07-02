@@ -151,6 +151,7 @@ description: 학습에 도움이 될 자료집
 
 * [UVA Foundation Models Course](https://uvafomo.github.io/).&#x20;
 * [UVA Deep Learning Course](https://uvadlc.github.io/).
+* [Stanford CS244N: NLP with Deep Learning](https://web.stanford.edu/class/cs224n/) --- ([한글자막](https://youtube.com/playlist?list=PLQdCGOoR3Oqb9RWevPjMUMwM6nvc0U98F\&si=4hc47qckZKnNT364))
 * [Advanced Topics in MultiModal Machine Learning (11-877 AMML), Carnegie Mellon University](https://cmu-multicomp-lab.github.io/adv-mmml-course/spring2023/schedule/).
 * [Deep Learning For Multimodal Systems, Hertie School Data Science Lab, 2023](https://ds3.ai/2023/deep-learning). --- ([Youtube](https://www.youtube.com/live/7izmkSRVGig?si=BHLlP0zTeFkQB6KI))
 * [Topics in Computer Vision (CSC2539) - Visual Recognition with Text, University of Toronto, 2017](https://www.cs.utoronto.ca/\~fidler/teaching/2017/CSC2539.html).

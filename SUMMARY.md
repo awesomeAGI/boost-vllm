@@ -19,8 +19,13 @@
 ## Trend
 
 * [2024](trend/2024/README.md)
+  * [Background](trend/2024/background.md)
   * [MLLM Architecture](trend/2024/mllm-architecture.md)
   * [Modality & Functionality](trend/2024/modality-and-functionality.md)
+  * [Instruction Tuning](trend/2024/instruction-tuning.md)
+  * [Multimodal Hallucination](trend/2024/multimodal-hallucination.md)
+  * [Human-level Reasoning](trend/2024/human-level-reasoning.md)
+  * [Construction Efficiency](trend/2024/construction-efficiency.md)
 
 ## Foundation
 
