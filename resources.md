@@ -103,6 +103,7 @@ description: 학습에 도움이 될 자료집
 {% tab title="github" %}
 * [Awesome Multimodal Large Language Models](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models), BradyFU's github.
 * [Awesome VLM Architectures](https://github.com/gokayfem/awesome-vlm-architectures), gokaygem's github.
+* [Prompt Engineering Guide](https://github.com/dair-ai/Prompt-Engineering-Guide), dair-ai's github.
 {% endtab %}
 
 {% tab title="hugginhface" %}
