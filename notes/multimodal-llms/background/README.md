@@ -31,6 +31,17 @@ multi + modal&#x20;
 
 > Multimodality is one of the main frontiers of the new foundation model revolution.
 
+## Multimodal brains&#x20;
+
+[McGurk effect](https://youtu.be/jtsfidRq2tw?si=zw3cWPCit\_6aMjgA) (McGurk & MacDonald, 1976)
+
+<figure><img src="../../../.gitbook/assets/17e0473ec7c307f65-ezgif.com-video-to-gif-converter.gif" alt=""><figcaption></figcaption></figure>
+
+* 모래반지 빵야빵야&#x20;
+* 머리 만지지 말란 말이야&#x20;
+* 뭘 마실지 빨리 말해&#x20;
+* 뭘봐 이 xx럼아&#x20;
+
 
 
 본 포스팅에서는 가장 많이 연구되는 <mark style="background-color:yellow;">NLP 중심의 multimodality를 정리합니다</mark>.
