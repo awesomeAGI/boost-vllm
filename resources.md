@@ -123,6 +123,7 @@ description: 학습에 도움이 될 자료집
 * [Understanding LLM Understanding (2024)](https://youtube.com/playlist?list=PL2xTeGtUb-8B94jdWGT-chu4ucI7oEe\_x\&si=1hoEFkZXn\_qf9F6Q).
 * [CMU Fall 2023 Multimodal Machine Learning course (11-777)](https://youtube.com/playlist?list=PL-Fhd\_vrvisMYs8A5j7sj8YW1wHhoJSmW\&si=T1Z8mUa0OTCLzRMD). --- ([slides](https://cmu-multicomp-lab.github.io/mmml-course/fall2023/schedule/))([page](https://cmu-mmml.github.io/spring2023/))
 * [VLP Tutorial 2023](https://www.youtube.com/@VLPTutorial/featured).
+* [CS 198-126: Lecture 22 - Multimodal Learning](https://youtu.be/\_Y-D5jrX7IQ?si=WenDU77dMdEFW0J\_), Machine Learning at Berkely (2022).
 {% endtab %}
 
 {% tab title="Tech blogs" %}
