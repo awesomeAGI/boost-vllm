@@ -4,9 +4,23 @@ description: 'Author: 윤건우'
 
 # Background
 
+## 1. History&#x20;
 
 
 
+### What is multimodality?
+
+
+
+
+
+
+
+
+
+
+
+## Summary&#x20;
 
 
 
