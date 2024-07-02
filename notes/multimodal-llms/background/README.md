@@ -4,7 +4,7 @@ description: 'Author: 윤건우'
 
 # Background
 
-## t is multimodality?
+## What is multimodality?
 
 multi + modal&#x20;
 
@@ -43,6 +43,17 @@ multi + modal&#x20;
 * 머리 만지지 말란 말이야&#x20;
 * 뭘 마실지 빨리 말해&#x20;
 * 뭘봐 이 xx럼아&#x20;
+
+## Multimodal applications&#x20;
+
+AI 기술의 발전으로 우리는 단일 데이터 형태를 넘어 여러 형태의 데이터를 결합하여 정보를 처리하고 이해할 수 있게 되었습니다. 이를 멀티모달 애플리케이션이라고 합니다. 특히 텍스트와 이미지를 결합한 다양한 애플리케이션은 우리 일상에서 큰 변화를 일으키고 있습니다. 아래에서는 주요 멀티모달 애플리케이션의 예를 소개합니다.
+
+1. **검색 (Retrieval) image <--> text**:  <mark style="background-color:yellow;">이미지와 텍스트를 상호 변환하여 필요한 정보를 검색</mark>하는 기술입니다. 예를 들어, 텍스트를 입력하면 관련 이미지를 검색하거나, 이미지를 입력하면 관련 텍스트를 검색할 수 있습니다.
+2. **캡셔닝 (Captioning) image -> text**: <mark style="background-color:yellow;">이미지에서 텍스트 설명을 생성</mark>하는 기술입니다. 예를 들어, 사진을 입력하면 그 사진의 내용을 설명하는 문장을 생성할 수 있습니다. 이는 소셜 미디어, 디지털 마케팅, 자동 이미지 설명 생성 등에 활용될 수 있습니다.
+3. **생성 (Generation) text -> image**: <mark style="background-color:yellow;">텍스트를 기반으로 이미지를 생성</mark>하는 기술입니다. 예를 들어, 특정 장면을 설명하는 문장을 입력하면 그에 맞는 이미지를 생성할 수 있습니다. 이는 콘텐츠 제작, 광고, 게임 디자인 등에서 활용될 수 있습니다.
+4. **시각적 질문 응답 (Visual Question Answering) image+text -> text**: <mark style="background-color:yellow;">이미지와 텍스트를 결합하여 질문에 답하는 기술</mark>입니다. 예를 들어, 특정 이미지를 보고 "이 사진 속 사람은 무엇을 하고 있나요?"라는 질문에 텍스트로 답할 수 있습니다. 이는 교육, 고객 서비스, 정보 검색 등에 활용될 수 있습니다.
+5. **멀티모달 분류 (Multimodal Classification) image+text -> label**: <mark style="background-color:yellow;">이미지와 텍스트를 결합하여 레이블을 생성하는 기술</mark>입니다. 예를 들어, 상품의 이미지와 설명을 결합하여 해당 상품의 카테고리를 분류할 수 있습니다. 이는 전자상거래, 데이터 관리, 정보 검색 등에 활용될 수 있습니다.
+6. **더 나은 이해/생성 (Better understanding/generation) image+text -> label/text**: <mark style="background-color:yellow;">이미지와 텍스트를 결합하여 더 나은 레이블이나 텍스트를 생성하는 기술</mark>입니다. 이는 종합적인 정보 이해와 생성에 큰 도움이 되며, 다양한 분야에서 활용될 수 있습니다.
 
 
 
