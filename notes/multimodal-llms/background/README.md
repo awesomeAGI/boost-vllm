@@ -33,9 +33,11 @@ multi + modal&#x20;
 
 ## Multimodal brains&#x20;
 
-[McGurk effect](https://youtu.be/jtsfidRq2tw?si=zw3cWPCit\_6aMjgA) (McGurk & MacDonald, 1976)
+맥거크 효과 - [McGurk effect](https://youtu.be/jtsfidRq2tw?si=zw3cWPCit\_6aMjgA) (McGurk & MacDonald, 1976)
 
-<figure><img src="../../../.gitbook/assets/17e0473ec7c307f65-ezgif.com-video-to-gif-converter.gif" alt=""><figcaption></figcaption></figure>
+* 동일한 발음이 말소리를 내는 사람의 입 모양에 따라 다르게 들리는 현상.
+
+<figure><img src="../../../.gitbook/assets/17e0473ec7c307f65-ezgif.com-video-to-gif-converter.gif" alt=""><figcaption><p>ㅇ모래반지 빵야빵야 모래반지 빵야빵야 </p></figcaption></figure>
 
 * 모래반지 빵야빵야&#x20;
 * 머리 만지지 말란 말이야&#x20;
