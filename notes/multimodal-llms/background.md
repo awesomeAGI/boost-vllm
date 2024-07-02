@@ -26,4 +26,4 @@ description: 'Author: 윤건우'
 
 ## Reference
 
-* [Stanford CS224N NLP with Deep Learning | 2023 | Lecture 16 - Multimodal Deep Learning](https://youtu.be/5vfIT5LOkR0?si=rZc\_I4UYBOHQlQ7C), Douwe Kiela, Stanford Online Youtube.
+* [Stanford CS224N NLP with Deep Learning | 2023 | Lecture 16 - Multimodal Deep Learning](https://youtu.be/5vfIT5LOkR0?si=rZc\_I4UYBOHQlQ7C), Douwe Kiela, Stanford Online Youtube. --- ([한국어 자막](https://youtu.be/FV0TtqoT7dE?si=fLiMhOSzGZmQb6LM)).
