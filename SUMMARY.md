@@ -19,7 +19,8 @@
 ## Trend
 
 * [2024](trend/2024/README.md)
-  * [Page 3](trend/2024/page-3.md)
+  * [MLLM Architecture](trend/2024/mllm-architecture.md)
+  * [Modality & Functionality](trend/2024/modality-and-functionality.md)
 
 ## Foundation
 
