@@ -12,7 +12,12 @@ description: 학습에 도움이 될 자료집
 {% endtab %}
 
 {% tab title="2022" %}
+* [Recent Advances in Vision Foundation Models](https://vlp-tutorial.github.io/2022/index.html), CVPR tutorial, 2022.
 * [Tutorial on Multimodal Machine Learning](https://youtube.com/playlist?list=PLki3HkfgNEsKPcpj5Vv2P98SRAT9wxIDa\&si=8bd1kKQCckzUk\_Xa), CVPR tutorial, 2022.
+{% endtab %}
+
+{% tab title="2023" %}
+* [Recent Advances in Vision Foundation Models](https://vlp-tutorial.github.io/2023/index.html), CVPR tutorial, 2023.
 {% endtab %}
 
 {% tab title="2024" %}
