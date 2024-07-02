@@ -23,8 +23,13 @@ multi + modal&#x20;
 
 멀티모달리티의 중요성:
 
-* 다양한 모드의 결합은 정보를 더 풍부하고 효과적으로 전달할 수 있게 해줍니다.&#x20;
-* AI 연구에서는 <mark style="background-color:yellow;">사람처럼 다양한 형태의 정보를 동시에 처리하고 이해할 수 있게 하여,</mark> 더 자연스러운 상호작용, 더 정확한 이해와 예측, 다양한 데이터 소스의 통합, 강화된 학습 능력, 혁신적인 응용 분야 등을 가능하게 합니다
+* **현실성 (Faithfulness)**:  **인간의 경험은 본질적으로 멀티모달**입니다. 다양한 감각  모드의 결합 (_e.g._, 인간의  오감)은 정보를 더 풍부하고 효과적으로 전달할 수 있게 해줍니다. AI 연구에서는 <mark style="background-color:yellow;">사람처럼 다양한 형태의 정보를 동시에 처리하고 이해할 수 있게 하여,</mark> 더 자연스러운 상호작용, 더 정확한 이해와 예측, 다양한 데이터 소스의 통합, 강화된 학습 능력, 혁신적인 응용 분야 등을 가능하게 합니다
+* **실용성 (Practicality)**: 인터넷과 현대 애플리케이션은 텍스트, 이미지, 비디오 등 멀티모달 데이터를 다룹니다. AI가 이러한 환경에서 제대로 기능하려면 다양한 형태의 데이터를 이해하고 처리할 수 있는 능력이 필수적입니다.
+* **데이터 효율성과 가용성 (Data Efficiency and Availablity)**:&#x20;
+  * _Efficiency:_ 멀티모달 데이터는 풍부하고 "고대역폭 (high bandwidth)" 데이터입니다. 이는 <mark style="background-color:yellow;">텍스트 데이터보다 더 많은 정보를 담고 있어 학습과 예측에 유리</mark>합니다. 예를 들어, Yann LeCun은 언어를 "내부 데이터 구조를 불완전하게 직렬화한 것 (an imperfect, imcomplete, and low-bandwidth serialization protocol for the internal data structures)"이라고 표현하면서, 멀티모달 데이터가 학습에 더 적합하다고 설명합니다.
+  * _Scaling:_ 더 많은 데이터가 더 나은 결과를 낳습니다. 고품질 텍스트 데이터가 부족해지고 있는 상황에서, 멀티모달 데이터는 AI 학습을 위한 새로운 고품질 데이터 소스로 작용할 수 있습니다.
+
+> Multimodality is one of the main frontiers of the new foundation model revolution.
 
 
 
