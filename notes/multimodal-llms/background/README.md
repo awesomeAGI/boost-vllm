@@ -4,7 +4,7 @@ description: 'Author: 윤건우'
 
 # Background
 
-## What is multimodality?
+## t is multimodality?
 
 multi + modal&#x20;
 
@@ -37,7 +37,7 @@ multi + modal&#x20;
 
 * 동일한 발음이 말소리를 내는 사람의 입 모양에 따라 다르게 들리는 현상.
 
-<figure><img src="../../../.gitbook/assets/17e0473ec7c307f65-ezgif.com-video-to-gif-converter.gif" alt=""><figcaption><p>ㅇ모래반지 빵야빵야 모래반지 빵야빵야 </p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/17e0473ec7c307f65-ezgif.com-video-to-gif-converter.gif" alt=""><figcaption><p>모래반지 빵야빵야</p></figcaption></figure>
 
 * 모래반지 빵야빵야&#x20;
 * 머리 만지지 말란 말이야&#x20;
