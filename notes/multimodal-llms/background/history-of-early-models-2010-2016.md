@@ -53,7 +53,17 @@ Kiela, D., et al. (2014) \[2]의&#x20;
 
 Lazaridou, A., et al. (2015) \[3]의&#x20;
 
-<figure><img src="../../../.gitbook/assets/Screenshot from 2024-07-03 14-27-30.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot from 2024-07-03 14-27-30.png" alt="" width="563"><figcaption><p>Lin- guistic context vectors are actually associated to classes of words in a tree, not single words</p></figcaption></figure>
+
+## Beyond words: Sentence level alignment&#x20;
+
+
+
+
+
+Karpathy, A., et al. (2015) \[]
+
+<figure><img src="../../../.gitbook/assets/Screenshot from 2024-07-03 14-35-37.png" alt=""><figcaption><p>Diagram for evaluating the image-sentence score $$S_{kl}$$. Object regions are embedded with a CNN (left). Words (enriched by their context) are embedded in the same multimodal space with a BRNN (right). Pairwise similarities are computed with inner products (magnitudes shown in grayscale) and finally reduced to image-sentence scor</p></figcaption></figure>
 
 
 
