@@ -31,6 +31,8 @@ step 1) Obtain visual "word vector" via BoVW:&#x20;
 1. Identify keypoints and get their descriptors **(주요 지점 식별 및 기술자 획득)**: 이미지에서 주요 지점을 식별하고, 각 지점의 기술자를 획득합니다. 이는 이미지의 특징을 잘 나타내는 정보입니다.
 2. Cluster them and map to counts **(클러스터링하고 카운트로 매핑)**: 식별된 기술자들을 클러스터링하고, 각 클러스터를 빈도로 변환합니다. 이를 통해 이미지 내의 중요한 요소들을 요약합니다.
 
+<figure><img src="../../../.gitbook/assets/Screenshot from 2024-07-02 17-01-46.png" alt="" width="375"><figcaption><p>Representing images by bag of visual words (BoVW)</p></figcaption></figure>
+
 step 2) Concatenate with textual word vector:&#x20;
 
 1. <mark style="background-color:yellow;">시각적 단어 벡터와 텍스트 단어 벡터를 결합</mark>하여, **단어의 의미를 더 풍부하게 표현**합니다. 예를 들어, "달"이라는 단어를 표현할 때, 달의 이미지를 기반으로 한 시각적 정보와 함께 텍스트 정보를 결합합니다.
@@ -39,7 +41,19 @@ step 3) Apply SVD to "fuse" information:
 
 1. <mark style="background-color:yellow;">결합된 정보를 단일화된 벡터로 만들기</mark> 위해 특이값 분해(SVD)를 적용합니다. 이를 통해 다양한 형태의 데이터를 효과적으로 결합할 수 있습니다.
 
-<figure><img src="../../../.gitbook/assets/Screenshot from 2024-07-02 17-01-46.png" alt=""><figcaption><p>Representing images by bag of visual words (BoVW)</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot from 2024-07-03 14-14-26.png" alt="" width="375"><figcaption><p>Multimodal fusion for combining textual and visual information in a semanticmodel</p></figcaption></figure>
+
+## Neural network versions for multimodal fusion&#x20;
+
+Kiela, D., et al. (2014) \[2]의&#x20;
+
+<figure><img src="../../../.gitbook/assets/Screenshot from 2024-07-03 14-20-48.png" alt="" width="563"><figcaption><p>Computing word feature vectors</p></figcaption></figure>
+
+
+
+Lazaridou, A., et al. (2015) \[3]의&#x20;
+
+<figure><img src="../../../.gitbook/assets/Screenshot from 2024-07-03 14-27-30.png" alt="" width="563"><figcaption></figcaption></figure>
 
 
 
@@ -48,4 +62,6 @@ step 3) Apply SVD to "fuse" information:
 ## Reference&#x20;
 
 1. [Bruni, E., Tran, N. K., & Baroni, M. (2014). Multimodal distributional semantics. _Journal of artificial intelligence research_, _49_, 1-47](https://www.jair.org/index.php/jair/article/view/10857/25905).
+2. Kiela, D., & Bottou, L. (2014, October). [Learning image embeddings using convolutional neural networks for improved multi-modal semantics.](https://aclanthology.org/D14-1005.pdf) In _Proceedings of the 2014 Conference on empirical methods in natural language processing (EMNLP)_ (pp. 36-45).
+3. Lazaridou, A., Pham, N. T., & Baroni, M. (2015). [Combining language and vision with a multimodal skip-gram model](https://arxiv.org/abs/1501.02598). _arXiv preprint arXiv:1501.02598_.
 
