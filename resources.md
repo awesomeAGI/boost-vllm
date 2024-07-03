@@ -82,6 +82,11 @@ description: 학습에 도움이 될 자료집
 
 {% tab title="2024" %}
 * [Towards AGI in Computer Vision: Lessons Learned from GPT and Large Language Models](https://arxiv.org/abs/2306.08641), arXiv, 2024.
+
+**Text-Image Generation**
+
+* [FocalDreamer: Text-Driven 3D Editing via Focal-Fusion Assembly](https://github.com/colorful-liyu/focaldreamer), AAAI, 2024.\
+
 {% endtab %}
 
 {% tab title="Dataset" %}
