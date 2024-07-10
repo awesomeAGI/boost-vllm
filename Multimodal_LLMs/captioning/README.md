@@ -1,4 +1,8 @@
 # Captioning
+* $F$: image → text
+* 입력 이미지에 대한 텍스트 설명 생성하기
+
+
 
 | Notebook | Open in Colab |
 |----------|---------------|
